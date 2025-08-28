@@ -4,7 +4,7 @@ status: backlog
 created: 2025-08-28T00:54:59Z
 progress: 0%
 prd: .claude/prds/initial-draft-ai-tool.md
-github: [Will be updated when synced to GitHub]
+github: https://github.com/joshgel/draft_ai/issues/1
 ---
 
 # Epic: initial-draft-ai-tool
@@ -185,14 +185,14 @@ High-level task categories that will be created:
 4. Streamlit UI (blocks user testing)
 
 ## Tasks Created
-- [ ] 001.md - Data Infrastructure (parallel: true)
-- [ ] 002.md - VORP Engine (parallel: false, depends on 001)
-- [ ] 003.md - LLM Integration (parallel: true)
-- [ ] 004.md - Monte Carlo Simulator (parallel: false, depends on 002)
-- [ ] 005.md - Streamlit UI (parallel: true, depends on 001)
-- [ ] 006.md - Draft Management (parallel: false, depends on 005)
-- [ ] 007.md - Caching & Optimization (parallel: false, depends on 004, 006)
-- [ ] 008.md - Testing & Documentation (parallel: false, depends on all)
+- [ ] #3 - Data Infrastructure (parallel: true)
+- [ ] #6 - VORP Engine (parallel: false, depends on #3)
+- [ ] #9 - LLM Integration (parallel: true)
+- [ ] #5 - Monte Carlo Simulator (parallel: false, depends on #6)
+- [ ] #7 - Streamlit UI (parallel: true, depends on #3)
+- [ ] #8 - Draft Management (parallel: false, depends on #7)
+- [ ] #2 - Caching & Optimization (parallel: false, depends on #5, #8)
+- [ ] #4 - Testing & Documentation (parallel: false, depends on all)
 
 Total tasks: 8
 Parallel tasks: 3
